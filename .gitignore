@@ -1,1 +1,6 @@
 .venv
+
+# Packaging
+dist
+build
+colored_shape_action_dataset*

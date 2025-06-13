@@ -3,6 +3,7 @@ from pathlib import Path
 
 setup(
     name="colored-shape-action-dataset",
+    py_modules=["action_generator"],
     version="1.0.0",
     description="",
     long_description=(Path(__file__).parent / "README.md").read_text(),
@@ -13,10 +14,10 @@ setup(
     packages=find_packages(),
     scripts=["generator.py"],
     install_requires=[
-        "pillow==10.3.0",
-        "opencv-python==4.9.0.80",
-        "matplotlib==3.10.0",
-        "numpy==1.26.4",
+        "pillow>=10.3.0",
+        "opencv-python>=4.9.0.80",
+        "matplotlib>=3.10.0",
+        "numpy>=1.26.4",
     ],
     license="Apache 2.0 license"
 )
