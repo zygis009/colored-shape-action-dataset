@@ -12,7 +12,7 @@ setup(
     author_email="zygis009@gmail.com",
     url="https://github.com/zygis009/colored-shape-action-dataset",
     packages=find_packages(),
-    scripts=["generator.py"],
+    scripts=["action_generator/generator.py"],
     install_requires=[
         "pillow>=10.3.0",
         "opencv-python>=4.9.0.80",
