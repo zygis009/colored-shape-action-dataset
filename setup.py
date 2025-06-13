@@ -2,8 +2,7 @@ from setuptools import setup, find_packages
 from pathlib import Path
 
 setup(
-    name="colored-shape-action-dataset",
-    py_modules=["action_generator"],
+    name="colored_shape_action_generator",
     version="1.0.0",
     description="",
     long_description=(Path(__file__).parent / "README.md").read_text(),
@@ -12,7 +11,6 @@ setup(
     author_email="zygis009@gmail.com",
     url="https://github.com/zygis009/colored-shape-action-dataset",
     packages=find_packages(),
-    scripts=["action_generator/generator.py"],
     install_requires=[
         "pillow>=10.3.0",
         "opencv-python>=4.9.0.80",
