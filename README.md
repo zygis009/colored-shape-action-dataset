@@ -33,7 +33,7 @@ pip install git+https://github.com/zygis009/colored-shape-action-dataset.git
 Then import the desired generator function:
 
 ```python
-from ... import generate_dataset, get_frames
+from colored_shape_action_generator.generator import generate_dataset, get_frames
 ```
 
 ## Contributing
