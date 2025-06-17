@@ -14,6 +14,8 @@ pip install -r requirements.txt
 
 While the functions accept mostly accept custom arguments for configuring how the dataset is generated, currently the color possibilities and speed settings for shape movement are hardcoded at the top of `generator.py` file. In case customization is desired, add your custom values directly to the code.
 
+For the shapes, you will need transparent `.png` images containing some shape. They will be used as masks to create all possible combinations of color and shape. When generating a single video, a random sample will be picked from the list of those combinations to create some movement. In case of dataset generation, an equal number of every possible action will be generated for each color-shape combination.
+
 ## Running
 
 To run the dataset generation, either clone the repository and run the bash script:
